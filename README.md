@@ -1,7 +1,9 @@
 # vim
-My standard vim configuration.  See https://dougblack.io/words/a-good-vimrc.html for an alternative, and probably equally good, one.
 
-To use on Windows, clone the .vim folder into the home directory:
+My standard vim configuration.
+See <https://dougblack.io/words/a-good-vimrc.html> for an alternative config.
+
+To use, clone the .vim folder (e.g. into the home directory):
 
 <pre>
 -> home\
@@ -9,9 +11,11 @@ To use on Windows, clone the .vim folder into the home directory:
     -> .vimrc
 </pre>
 
-and then make a symbolic link with an admin-mode cmd prompt:
+and then make a symbolic link:
 
-    mklink ".vimrc" ".vim/.vimrc"
+```winbatch
+mklink ".vimrc" ".vim/.vimrc"
+```
 
 so that the directory structure now looks like:
 
@@ -21,3 +25,4 @@ so that the directory structure now looks like:
   -> .vim
     -> .vimrc (real file)
 </pre>
+
